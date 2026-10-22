@@ -7,8 +7,8 @@ export function Signature() {
         <p className="signature-name hand">created by lea</p>
         <p className="signature-line">software engineer who grades her ai agents like a 2nd grade teacher.</p>
         <p className="signature-links mono">
-          <a href="https://github.com/lea-tinoso" target="_blank" rel="noreferrer">
-            github ↗
+          <a href="https://github.com/lea-tinoso/which-abbott-are-you#how-this-was-made" target="_blank" rel="noreferrer">
+            how it&apos;s made ↗
           </a>
           <span aria-hidden> · </span>
           <a href="https://lea-showcase.vercel.app" target="_blank" rel="noreferrer">
