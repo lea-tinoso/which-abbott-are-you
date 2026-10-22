@@ -406,8 +406,9 @@ button {
 .peek {
   position: relative;
   height: 270px;
-  margin: 0 -16px -40px;
+  margin: 0 -16px;
   overflow: hidden;
+  border-bottom: 1px solid var(--line);
 }
 
 .peek-head {
@@ -838,6 +839,49 @@ button {
 .runners .mono {
   font-size: 11px;
   text-align: right;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  margin: 18px 4px 0 auto;
+  rotate: -2deg;
+}
+
+.signature-face {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #fff, 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
+.signature-name {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.signature-line {
+  max-width: 230px;
+  margin-top: 2px;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--grey);
+}
+
+.signature-links {
+  margin-top: 4px;
+  font-size: 11px;
+  color: #999;
+}
+
+.signature-links a {
+  color: var(--blue);
+}
+
+.signature-links a:hover {
+  text-decoration: underline;
 }
 
 .fanmade {

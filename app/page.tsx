@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Folder, Kaomoji, NameTag, Sticky, Trash, Window } from "@/components/desk";
 import { MenuBar } from "@/components/menu-bar";
+import { Signature } from "@/components/signature";
 import { characters } from "@/data/characters";
 
 export default function Cover() {
@@ -78,6 +79,8 @@ export default function Cover() {
           </div>
           <Trash style={{ position: "absolute", right: "6%", bottom: 20 }} />
         </div>
+
+        <Signature />
       </div>
     </main>
   );
