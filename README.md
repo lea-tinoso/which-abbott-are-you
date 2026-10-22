@@ -56,6 +56,16 @@ I built this with Claude Code in one sitting, the same way I build everything
 now: I make the calls, the agent does the typing, and nothing ships until I've
 seen it.
 
+### From idea to live site in about 40 minutes
+
+| Time (Oct 22, 2026, UTC) | Since the first message | What happened |
+| --- | --- | --- |
+| 13:17 | 0 min | First message: "make me a BuzzFeed-style Abbott quiz" |
+| 13:21 | 4 min | Plan ready: stack, scoring, characters, 3 visual directions, repo name |
+| 13:36 | 18 min | Design approved from static preview images |
+| 13:51 | 34 min | First version merged (PR #1) |
+| 13:56 | 39 min | Live on Vercel after fixing the deploy 404 (PR #2) |
+
 ### 1. The ask
 
 > "Similar to how buzzfeed quiz works... the result will tell you which Abbott
